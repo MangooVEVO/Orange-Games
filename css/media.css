@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+
+.articulo2
+{
+display: none;
+}
+
+.containerSection  
+{
+flex-direction: column;
+}
+
+.articulo4,.articulo6
+{
+    width: 50vw;
+    height: 25vh;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#a71814;
+}    
+
+.containerSection2  
+{
+flex-direction: column;
+}
+
+.articulo8,.articulo10
+{
+    width: 50vw;
+    height: 25vh;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#a71814;
+}    
+
+.footer-1
+{
+  width: 100vw;
+  height: 40vh;
+  flex-direction: row;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#a71814;
+}
+}

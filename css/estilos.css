@@ -1,0 +1,96 @@
+*
+    {
+        font-family: Arial;
+    }
+body
+    {   
+        margin: 0%;
+        display:flex;
+        overflow-x:hidden;
+        align-items:center;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    nav, header, section, footer
+    {
+        display:flex;
+        flex-direction:row;
+        align-items:center; 
+        justify-content:center;
+    }
+
+    .color1 {color: #10000a;}
+    .color2 {color: #0a2b4e;}
+    .color3 {color: #a71814;}
+    .color4 {color: #d9e2e7;}
+    .color5 {color: #ffffff;}
+
+/******************************************************************/  
+nav
+    {
+        width:100vw;
+        height:10vh;
+        background: #d9e2e7; 
+    }
+
+/******************************************************************/
+.articulo1
+    {   
+        width: 100vw;
+        height: 40vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:#0a2b4e;
+    }
+
+/******************************************************************/ 
+.articulo2
+    {   
+        width: 50vw;
+        height: 50vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:#a71814;
+    }
+
+.containerSection  
+{
+flex-direction: column;
+}
+
+.articulo4,.articulo6
+{
+    width: 25vw;
+    height: 25vh;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#a71814;
+}    
+
+.containerSection2  
+{
+flex-direction: column;
+}
+
+.articulo8,.articulo10
+{
+    width: 25vw;
+    height: 25vh;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#a71814;
+}    
+
+/******************************************************************/
+.footer-1
+    {   
+        display: none;
+    }
+/******************************************************************/
